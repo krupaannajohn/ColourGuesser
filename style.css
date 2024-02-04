@@ -1,0 +1,122 @@
+body {
+	background-image: radial-gradient(circle,rgb(60, 26, 26),rgb(96, 76, 208));
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 62.5%; 
+	margin: 0;
+    animation: scaleIn 2s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+
+}
+.circle {
+    border-radius: 100px;
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	transition: background .5s;
+	-webkit-transition: background .5s;
+	-moz-transition: background .5s;
+	o-transition: background .5s;
+} 
+
+h1 {
+	color: rgb(119, 19, 19);
+	background-image: linear-gradient(to right,rgb(198, 65, 156),rgb(116, 196, 223));
+	font-size: 4em;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+}
+
+h2 {
+	color:rgb(42, 14, 143);
+	background-image: linear-gradient(to right,rgb(198, 65, 156),rgb(116, 196, 223));
+	text-align: center;
+    font-size: 3em;
+	margin: 0;
+	padding: 10px 0;
+}
+
+h3 {
+	color: rgb(87, 17, 134);
+	background-image: linear-gradient(to right,rgb(198, 65, 156),rgb(116, 196, 223));
+	font-size: 4em;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
+#color-display {
+	display: block;
+	font-size: 2em;
+}
+
+#stripe {
+	background: pink;
+	height: 50px;
+	text-align:center;
+	color: black;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin-right: 50%;
+}
+
+#message {
+	text-transform: uppercase;
+	color: #715f0d;
+	font-size: 2em;
+	display: inline-block;
+	width: 20%;
+    font-weight: bold;
+}
+
+button {
+	border-radius: 5px;
+    border-color: black;
+	color: #black;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	background-color: rgb(237, 153, 237);
+	height: 100%;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	o-transition: all 0.3s;
+}
+
+button:hover {
+	background-color: #992c87;
+	color: white;
+}
+
+.selected {
+	background-color: #371670;
+	color: white;
+}
