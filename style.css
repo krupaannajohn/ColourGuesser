@@ -67,11 +67,30 @@ h3 {
 	font-size: 2em;
 }
 
-#stripe {
-	background: pink;
-	height: 50px;
-	text-align:center;
-	color: black;
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+}
+
+#header button {
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#header button:hover {
+    background-color: #0056b3;
+}
+
+#header span {
+    color: yellow;
+    font-weight: bold;
 }
 
 p{
